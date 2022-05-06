@@ -18,27 +18,6 @@
 
 <div align="center">
 
-  // 星を作成
-  function preStar() {
-    star = [];
-    for (let i = 0; i < 100; i++) {
-      star.push([random(width), random(height / 2), random(1, 4)]);
-    }
-  }
-
-  // 星を描画
-  function drawStar() {
-    // 星を描く
-    for (let s of star) {
-      let c = color(random(150, 255), random(150, 255), 255);
-      c.setAlpha(random(150, 200));
-      fill(c);
-      ellipse(s[0], s[1], s[2], s[2]);
-    }
-  }
-
-
-
   <div style="background-color:#EDF7FF;"
  
     <marquee><h1>私の分身体の紹介</h1></marquee>
